@@ -382,9 +382,6 @@ a{
     ._container{
         width: fit-content;
     }
-    .appName{
-        font-size: x-small;
-    }
     .hello{
         font-size: x-small;
     }
@@ -414,8 +411,11 @@ a{
         margin-top: 200px;
     }
     .hello{
-        font-size: x-small;
-        margin-top: 0px;
+        font-size: small;
+        margin-top: 20px;
+    }
+    ._container{
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 970px){
@@ -430,8 +430,11 @@ a{
         display: none;
     }
     .hello{
-        font-size: x-small;
-        margin-top: 0px;
+        font-size: small;
+        margin-top: 20px;
+    }
+    ._container{
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 735px){
@@ -469,5 +472,8 @@ a{
         align-items: center;
         justify-content: center;
         margin-bottom: 30px;
+    }
+    .dream:hover{
+        transform: none;
     }
 }
